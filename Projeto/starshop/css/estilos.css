@@ -1,0 +1,173 @@
+body{
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+header{
+    position: relative;
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+.sacola {
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    font-size: 14px;
+    padding-right: 35px;
+    padding-top: 8px;
+    text-align: right;
+    width: 140px;
+}
+
+.menu-opcoes{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+}
+
+.menu-opcoes a {
+    color: #003366;
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin: 20px;
+}
+
+
+
+.destaque {
+    margin-top: 10px;
+}
+
+.busca,
+.menu-departamentos {
+    background-color: #DCDCDC;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+    float: left;
+}
+
+.busca h2,
+    .busca form,
+    .menu-departamentos h2 {
+        margin: 10px;
+}
+
+.busca input[type=search]{
+    width: 170px;
+}
+
+.menu-departamentos {
+    clear: left;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.menu-departamentos li{
+    background-color: white;
+    margin: 1px;
+    padding: 5px 10px;
+}
+
+.menu-departamentos a{
+    color: #333333;
+    text-decoration: none;
+}
+
+
+
+.painel{
+    margin: 10px 0;
+    padding: 10px;
+    width: 240px;
+}
+
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.novidades{
+    float: left;
+    background-color: #F5DCDC;
+}
+
+.mais-vendidos {
+    float: right;
+    background-color: #DCDCF5;
+}
+
+
+.painel h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.painel a {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+footer {
+    background-image: url(../img/fundo-rodape.png);
+    clear: both;
+    padding: 20px 0;
+}
+
+footer .container{
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+
+.social li {
+    float: left;
+    margin-left: 25px;
+}
+
+.social a {
+    height: 32px;
+    width: 32px;
+    display: block;
+    text-indent: -9999px;
+}
+
+.socal a[href*="x.com"]{
+    background-image: url(../img/x.png);
+}
+
+.socal a[href*="instagram.com"]{
+    background-image: url(../img/instagram.png);
+}
+
+.socal a[href*="web.whatsapp.com"]{
+    background-image: url(../img/whatsapp.png);
+}
